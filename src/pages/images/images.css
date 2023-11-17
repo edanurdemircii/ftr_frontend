@@ -1,0 +1,24 @@
+.images-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Ekran yüksekliği kadar genişletme */
+    overflow: hidden; /* Taşan içeriği gizleme */
+}
+
+.images-sinifi {
+    width: 100%; /* Tam genişlik */
+    height: 100%;
+    object-fit: cover; /* Oranları koruyarak sığdırma */
+}
+
+.metin-container {
+    position: absolute;
+    top: 30%; /* Konteynerin yüksekliğinin ortasına hizalamak için */
+    left: 50%; /* Konteynerin genişliğinin ortasına hizalamak için */
+    transform: translate(-50%, -50%); /* Hizalamayı düzeltmek için */
+    text-align: center; /* Metni ortalamak için */
+    color: rgb(29, 20, 20); /* Metin rengi */
+}

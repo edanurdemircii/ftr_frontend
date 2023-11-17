@@ -1,0 +1,21 @@
+
+.egzersizContainer{
+     border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 60px;
+
+}
+.custom-card {
+    width: 18rem; /* Kartın genişliği */
+    /* İhtiyaca göre diğer özel stilleri buraya ekleyebilirsiniz */
+}
+
+.custom-card-title {
+    cursor: pointer;
+}
+
+.custom-chevron {
+    float: right;
+    transition: transform 0.3s;
+}

@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import DoktorGirişi from './pages/DoktorGirişi';
 import HastaGirişi from './pages/HastaGirişi';
 import Hakkında from './pages/Hakkında';
-
+import Home from './components/Home/Home';
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <BrowserRouter>
       <Navbar/>
         <Routes>
+          <Route path="/home" element={<Home/>} />
           <Route path="/doktorgirisi" element={<DoktorGirişi/>} />
           <Route path="/hastagirisi" element={<HastaGirişi/>} />
           <Route path="/hakkında" element={<Hakkında/>} />
